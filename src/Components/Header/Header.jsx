@@ -15,7 +15,7 @@ import { useContext } from "react";
 import { DataContext } from "../../Components/DataProvider/DataProvider.jsx";
 
 // Importing Firebase authentication module
-import { auth } from "../../utility/Firebase.js";
+import { auth } from "../../Utility/Firebase.js";
 
 function Header() {
   // Accessing global state and dispatch method from context
