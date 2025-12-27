@@ -18,13 +18,13 @@ import { axiosInstance } from "../../Api/Axios.jsx";
 // Spinner for loading state
 import { ClipLoader } from "react-spinners";
 // Firebase Firestore database import
-import { db } from "../../utility/Firebase";
+import { db } from "../../Utility/Firebase.js";
 // Firestore methods to set order documents
 import { doc, setDoc } from "firebase/firestore";
 // React Router hook for redirection
 import { useNavigate } from "react-router-dom";
 // Action types for context dispatch
-import { Type } from "../../utility/action.type.js";
+import { Type } from "../../Utility/action.type.js";
 
 function Payment() {
   // Global state values

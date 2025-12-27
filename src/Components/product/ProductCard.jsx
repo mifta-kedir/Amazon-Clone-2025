@@ -12,7 +12,7 @@ import { useContext } from "react";
 // Importing global data context for state management
 import { DataContext } from "../DataProvider/DataProvider.jsx";
 // Importing action types constants for dispatching actions
-import { Type } from "../../utility/action.type.js";
+import { Type } from "../../Utility/action.type.js";
 
 function ProductCard({ product, flex, renderDesc, renderAdd }) {
   // Destructure product details from props
