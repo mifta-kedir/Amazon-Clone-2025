@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./Pages/Landing/Landing";
-import Payment from "./pages/Payment/Payment";
-import Orders from "./pages/Order/Order.jsx";
+import Payment from "./Pages/Payment/Payment.jsx";
+import Orders from "./Pages/Order/Order.jsx";
 import Cart from "./Pages/Cart/Cart";
 import Results from "./Pages/Results/Results";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail";
@@ -10,8 +10,6 @@ import Auth from "./Pages/Auth/Auth.jsx";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import { ProtectedRoute } from "./Components/protedtedRoute/ProtectedRoute.jsx";
-
-
 
 function Routing() {
   const stripePromise = loadStripe(
